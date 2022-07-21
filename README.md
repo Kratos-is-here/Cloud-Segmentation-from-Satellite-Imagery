@@ -20,7 +20,7 @@ To obtain adequate analytical results from multi-spectral satellite imagery, it 
   ```shell
     conda create -n cloudncloud -f environment.yml
     conda activate cloudncloud
-    pip install segmentation_models_pytorch
+    pip install segmentation_models_pytorch as smp
     ```
 
 - Set number of epochs, batch size, optimizer, loss function, model, transformation to be applied on data by
